@@ -1,0 +1,37 @@
+# PlatformIO / build output
+.pio/
+.cache/
+firmware/host/replay
+*.o
+
+# Editor-generated (machine-specific paths)
+.vscode/*
+!.vscode/extensions.json
+compile_commands.json
+
+# OS junk
+.DS_Store
+__MACOSX/
+._*
+
+# Python
+__pycache__/
+*.pyc
+
+# Real recordings / test data you may not want to publish
+recordings/
+
+# Python / Virtualenvs / Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+*.db
+*.sqlite3
+
+# macOS
+.DS_Store
+__MACOSX/
+._*

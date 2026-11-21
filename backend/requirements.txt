@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+python-multipart>=0.0.9
+numpy
+pyjwt>=2.8
+neo4j>=5.20   # optional: only used when NEO4J_URI is set
+# tests
+pytest
+httpx
